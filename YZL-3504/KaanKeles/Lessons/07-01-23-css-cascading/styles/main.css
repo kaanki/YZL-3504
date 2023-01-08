@@ -1,0 +1,36 @@
+div {
+border: 10px solid black
+ }
+/* header styles */
+ header{ 
+    border: 10px solid red;
+
+ }
+ /* main styles */
+ main {
+    border: 10px solid blue;
+
+ }
+
+ main p{ 
+
+   color: pink;
+}
+main p a { 
+   color: aqua;
+
+}
+
+/*footer styles*/
+ footer {
+    border: 10px solid gray;
+ }
+
+ footer p{
+   color: blueviolet; 
+ }
+
+   footer p a 
+   {
+       color: firebrick;
+      }
