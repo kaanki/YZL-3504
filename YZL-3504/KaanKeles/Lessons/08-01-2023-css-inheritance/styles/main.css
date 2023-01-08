@@ -1,0 +1,21 @@
+/* DRY ( Do not repeat yourself ) */
+/* p, h1 ,h2{
+    color: #ff0000;
+} */
+
+/* div p{
+    color: #000ff0;
+} */
+
+/* html body div p{
+    color:green;
+} */
+
+body {
+    color: red;
+    border: 2px solid blue;
+}
+
+a{
+    color: inherit;
+}

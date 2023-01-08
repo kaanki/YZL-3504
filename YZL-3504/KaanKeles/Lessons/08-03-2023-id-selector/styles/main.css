@@ -1,0 +1,23 @@
+#page{
+    border:2px solid red;
+}
+
+/* #page-header {
+    border: 2px solid blue;
+} */
+
+#page > header {
+    border: 2px solid blue;
+}
+
+main{
+    border: 2px solid blue;
+}
+
+#page-footer{
+    border: 2px solid blue;
+}
+
+body{
+font-family: 'Rowdies', cursive;
+}

@@ -1,0 +1,28 @@
+div, header, main, footer{
+    border: 2px solid blue;
+    /*
+        border-width:2px;
+        border-style:solid;
+        border-color:blue;
+    */
+}
+
+div{
+    border: 2px solid red;
+}
+
+.gs{
+    color: red;
+}
+
+footer .gs{
+    color: yellow;
+}
+/* 
+.vip{
+
+}
+
+.fb.vip.special{
+    
+} */
