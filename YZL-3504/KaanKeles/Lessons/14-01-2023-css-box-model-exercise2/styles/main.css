@@ -1,12 +1,17 @@
-body {
+.body-padding {
     padding: 100px;
 }
 
-hr.solid {
-    border-top: 3px solid blueviolet;
+header {
+    border-bottom: 3px solid blueviolet;
+    padding-bottom: 20px;
 }
 
-b{
+main {
+    padding-top: 20px;
+}
+
+b {
     font-weight: bold;
 }
 
@@ -14,8 +19,13 @@ b{
     color: blueviolet;
 }
 
+p {
+    margin: 20px;
+}
+
 h1 {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .greenbox {
@@ -29,4 +39,9 @@ h1 {
     height: 30px;
     width: 30px;
     padding: 25px;
+}
+
+footer {
+    border-top: 3px solid blueviolet;
+    padding-top: 20px;
 }

@@ -1,0 +1,28 @@
+* {
+
+    box-sizing: border-box;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 5px solid blue;
+}
+
+.box.type-1 {
+    margin:30px 20px;   
+
+}
+
+.box.type-2 {
+    margin:40px 80px; 
+    border-color: purple;
+
+}
+
+.box.type-3 {
+    margin:40px 150px; 
+    border-color: green;
+
+}

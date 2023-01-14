@@ -1,0 +1,43 @@
+* {
+    
+    box-sizing: border-box;
+}
+
+div {
+    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+
+}
+
+
+    
+    /* dört bir yandan -- top-right-bottom-left - cw --
+    margin: 40px;
+    */
+    
+    
+
+    /*
+    margin-top:40px;
+    margin-right:40px;
+    margin-bottom:40px;
+    margin-left:40px;
+    */
+    
+    /*
+    ***
+    top:40 right:42 bottom:50 left:30 kısaltması:
+    margin:40px 42px 50px 30px;  
+    ***
+    alt ve üst 40, sağ ve sol 20 demektir:
+    margin:40px 20px;
+    ***
+    üst 40, sağ ve sol 30, alt 56 demektir:
+    margin: 40px 30px 56px;
+    */
+  
