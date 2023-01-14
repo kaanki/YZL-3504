@@ -1,0 +1,23 @@
+* {
+    /* padding ve border miktarının genişlik ve yüksekliğe eklenmemesi için */
+    box-sizing: border-box;
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 5px solid blue;
+    margin: 40px 2px;
+}
+
+.box.type-2 {
+    border-color: green;
+    margin: 40px 80px;
+}
+
+.box.type-3 {
+    border-color: purple;
+    margin: 40px 150px;
+}
