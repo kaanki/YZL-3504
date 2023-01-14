@@ -1,0 +1,47 @@
+*  {
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 5px solid purple;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+footer{
+    border-top: 5px solid purple;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+.green{
+    border: 5px solid green;
+
+}
+
+.px{
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+h1,h2{
+    font-size: 30px;    
+}
+
+.yüzde {
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.main {
+    margin:40px 40px;
+}
+b{
+    font-weight: bold;
+    color: purple;
+}
