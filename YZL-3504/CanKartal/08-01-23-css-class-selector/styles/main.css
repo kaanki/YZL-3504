@@ -1,0 +1,35 @@
+div, header, main, footer{
+    border: 2px solid blue;
+
+/*
+border-widht.2px;
+border-styles.2px;
+border-color.2px;
+*/
+}
+
+div{
+    border-color:red;
+}
+
+/* fb class'ına mensup herhangi bir html elemanı*/
+.fb{
+    color: blue;
+}
+
+.bj{
+    color: black;
+}
+
+
+footer .fb{
+    color: yellow;
+}
+
+/* vip class'ına mensup herhangi bir html elemanı*/
+.vip{}
+
+
+/*Hem fenerbahçe hem vip hem special class'lı html öğesi */
+.fb .vip .special{}
+

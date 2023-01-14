@@ -1,0 +1,21 @@
+div p{
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+body div p{
+    color:green;
+}
+
+body a{
+     font-weight: bold;
+     color: red;
+}
+
+html a{
+    font-weight:normal;
+    color: aquamarine;
+}

@@ -1,0 +1,8 @@
+div, header, main, footer{
+    border: blue;
+
+}
+
+div{
+    border: red;
+}
