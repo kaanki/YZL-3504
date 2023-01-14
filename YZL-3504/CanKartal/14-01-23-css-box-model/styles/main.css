@@ -1,0 +1,47 @@
+/**/
+*{
+    /*Padding ve border miktarının genişlik ve yüksekliğe eklenmesi için */
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    border:20px solid red;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 40px;
+}
+
+div{
+    border: 10px solid rgb(0, 0, 255);
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 40px;
+
+     /* dört bir yandan --- top-right-bottom-left-cw*/
+  margin:40px;
+  
+  /* 
+  margin-top:40px
+  margin-right:40px
+  margin-buttom:40px
+  margin-left:40px
+  margin:
+  */
+  
+  /*
+  top 40px, right 42px, buttom 50px, left 30px kısaltılması
+  margin:40px 42px 50px 30px;
+  
+  
+  
+  alt ve üst 40px, sağ ve sol 20 px
+  margin:40px 20px
+  
+  margin:40px 30px 56px
+  
+  */
+}
