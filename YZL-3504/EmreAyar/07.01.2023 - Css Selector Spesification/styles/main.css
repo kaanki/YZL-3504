@@ -1,0 +1,22 @@
+p{
+    color: blue;
+}
+
+div p{
+    color: red;
+}
+
+body div p{
+    color: green;
+}
+
+body a{
+    font-weight: bold;
+    color: aqua;
+}
+
+html a{
+    font-weight: normal;
+    color: beige;
+}
+

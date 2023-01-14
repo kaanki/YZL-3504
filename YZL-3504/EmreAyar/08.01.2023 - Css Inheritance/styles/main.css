@@ -1,0 +1,18 @@
+
+/*DRY (Do Not Repeat Yourself)*/
+
+/*
+p, h1, h2{
+    color: red;
+}
+*/
+
+body{
+    color: red;
+    border: 2px solid blue;
+}
+
+/*body'e verilen red komutu, a'ya geçmiyor. Inherit ile ona da geçir diyoruz*/
+a{
+    color:inherit;
+}
