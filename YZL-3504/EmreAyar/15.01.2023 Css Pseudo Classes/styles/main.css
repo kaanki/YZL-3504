@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+ol{
+    margin: 40px;
+}
+
+ol>li {
+    list-style: decimal;
+    
+}
+
+
+/*Ebeveyninin ilk çocuğu olan li*/
+.my-list-1 li:first-child {
+    color: blue;
+}
+
+
+/*Ebeveyninin son çocuğu olan li*/
+.my-list-1 li:last-child {
+    color: red;
+}
+
+/*Ebeveyninin 3. çocuğu olan li*/
+.my-list-1 li:nth-child(3){
+    color: yellow;
+}
+
+/*tek sayılar*/
+.my-list-2 li:nth-child(odd){
+    color: red;
+}
+
+/*çift sayılar*/
+.my-list-2 li:nth-child(even){
+    color: blue;
+}

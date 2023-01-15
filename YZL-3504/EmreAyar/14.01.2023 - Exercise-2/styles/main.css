@@ -17,6 +17,7 @@ footer{
 
 .green{
     border: 5px solid green;
+    margin: 20px;
 
 }
 
@@ -25,6 +26,7 @@ footer{
     width: 100px;
     height: 100px;
     margin: 20px;
+    
 }
 
 h1,h2{
@@ -41,6 +43,7 @@ h1,h2{
 .main {
     margin:40px 40px;
 }
+
 b{
     font-weight: bold;
     color: purple;
