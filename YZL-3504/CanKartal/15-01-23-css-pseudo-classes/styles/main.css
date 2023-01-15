@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+ol{
+    margin: 40px;
+}
+ol>li{
+    list-style: lower-roman;
+}
+
+h1{
+    font-size: 40px;
+}
+
+/*ebeveyninin il çocuğu olan li*/
+.my-list-1 li:first-child{
+    color: blue;
+}
+
+
+/*ebeveyninin son çocuğu olan li*/
+.my-list-1 li:last-child{
+    color: red;
+}
+
+.my-list-1 li:nth-child(3){
+    color: greenyellow;
+}
+
+.my-list-2 li:nth-child(odd){
+    color: blue;
+}
+.my-list-2 li:nth-child(even){
+    color: red;
+}
+
