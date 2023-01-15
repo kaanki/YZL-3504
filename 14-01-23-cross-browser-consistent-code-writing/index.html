@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <title> Cross Browser Consistent Code Writing  (tüm tarayıcılar arası tutarlı çalışan kod yazma) </title>
+  <meta name="description" content="Web Hakkında">
+
+  <link rel="stylesheet" href="./styles/reset.css">
+</head> 
+<!-- önce reset css i alıyoruz ki aynı güçde olduğu için en son gelen kazanacak-->
+
+  <link rel="stylesheet" href="./styles/main.css">
+
+
+<body>
+
+ <!--tüm tarayıcılarda çalışması için yazılan kodların;
+    1. Bir reset sistemi kullanmak (reset.css cv..)
+    2. Compalibiltiy Checker ( css özelliklerinin uyumluluk kontrolü -canıuse.com )
+    3. @supports rule kullanmak
+    4. çok kullanılan tarayıcılarla yazılan kodun test edilmesi
+-->
+
+<h1> Hello Browser!</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit.</p>
+
+</body>
+
+</html>

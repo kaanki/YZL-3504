@@ -1,0 +1,45 @@
+/*
+width (genişlik)
+height (yükseklik)
+border (çerçeve)
+box-sizing (hizalama)
+padding- çerçeve içi boşluk
+madding- diğer çerçeveler arasındaki boşluk 
+*/
+* {
+   box-sizing: border-box;
+}
+/*padding ve border miktarının genişlik ve yüksekliğe eklenmemesi için yapılır. tüm elemanlara seslenmek için yıldız kullandık. */
+h1 {
+border:20px solid red  ;
+width: 300px;
+height: 300px;
+padding: 20px;
+margin: 40px;
+}
+div {
+   border: 10px solid blue;
+   width: 100px;
+   height: 100px;
+   padding: 10px;
+  margin: 40px;
+}
+  /* dört bir yandan -- top- right- bottom- left--saat yönüne göre yönler */
+/*
+  margin-top:40px
+  margin-right:40px
+  margin-bottom:40px
+  margin-left:40px 
+
+  hepsi 40 px demek yukarıdada zaten direk margin diyerek onu belirttik*/
+  
+  
+  /*
+  top 40px , right 42px, bottom 50px, left 30px için;
+  margin:40px 42px 50px 30px ; 
+
+  margin:40px 30px ; (alt ve üstten 40 sağ ve soldan 30 px demek )
+  
+  margin: 40px 30px 56px ; ( üst 40 sağ ve sol 30 alt 56 )
+  */
+  

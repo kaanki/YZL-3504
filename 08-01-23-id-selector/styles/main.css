@@ -1,0 +1,36 @@
+/*header, main, footer { 
+   border: 2px solid blue;
+}*/
+
+
+
+/* id ye sadece bir tane isim verebilirsin ve id ye seslenmek için # işareti kullanılır*/
+
+
+#page  { 
+   border: 2px solid red;
+}
+/*
+#page-header { 
+   border: 2px solid blue;
+}
+#page-footer {
+   border: 2px solid blue;
+}
+main {
+   border: 2px solid blue;
+}
+*/
+body{
+   font-family: 'Roboto', sans-serif;;
+}
+ #page>header {
+   border: 2px solid blue;
+ }
+
+ main {
+   border: 2px solid blue;
+ }
+ #page>footer {
+   border: 2px solid blue;
+ }

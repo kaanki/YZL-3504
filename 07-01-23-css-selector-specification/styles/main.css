@@ -1,0 +1,19 @@
+p { 
+   color:yellow;
+}
+
+div p { 
+   color: red;
+}
+/* p yi kırmızı yapar çünkü daha spesifik şekilde belirttik. mesela; kurye adres örneği - (p 1 puan burda div ve p 2 puan ) */
+body div p { 
+   color: brown;
+}
+/* aynı şekilde  p yi kahverengi yapar çünkü daha da spesifik şekilde belirttik.  */
+
+body a { 
+font-weight:bold ; color: black; font-style: italic;
+}
+
+html a { font-weight:normal; color: green}
+/* ikiside aynı puan olunca son  geleni alıyor.*/
