@@ -1,0 +1,25 @@
+/* DRY (do not repeat yourself) */
+
+/*
+p  {color: red;}
+h1 {color: red;}
+h2 {color: red;} */
+
+/*bu şekilde yazmak yerine araya virgül koyarak ekleriz*/
+
+/*
+p, h1, h2 {
+   color: red;
+}
+*/
+
+/*p elemanları ve h1 elemanları ve h2 elemanları*/
+
+body { 
+   color: red;
+   border: 2px solid black;
+}
+
+a{
+   color: inherit; /*normalde a ebeveynden almıyor 'a' ama inherit atanırsa a ya almak zorunda kalır */
+}

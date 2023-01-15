@@ -1,0 +1,13 @@
+div {
+border: 10px solid black
+ }
+
+ header{ 
+    border: 10px solid red;
+ }
+ main {
+    border: 10px solid blue;
+ }
+ footer {
+    border: 10px solid gray;
+ }

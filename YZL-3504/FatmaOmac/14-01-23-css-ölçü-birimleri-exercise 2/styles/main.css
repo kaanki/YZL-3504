@@ -1,0 +1,30 @@
+
+     div { 
+      padding: 50px; 
+     }
+
+     h1 {
+      font-weight: bold;
+     }
+
+    header,main {
+      border-bottom: 3px solid blueviolet;
+      padding-bottom: 30px;
+     }
+
+     div.box, div.box2{ 
+        border: 3px solid green;
+       padding: 30px ;
+     }
+
+     p.kare,p.kare2 { 
+      border: 3px solid black;
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+     }
+     
+     footer p {
+     margin-top: 10px;
+     }
+     

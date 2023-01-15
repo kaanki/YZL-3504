@@ -1,0 +1,47 @@
+.body-padding {
+    padding: 100px;
+}
+
+header {
+    border-bottom: 3px solid blueviolet;
+    padding-bottom: 20px;
+}
+
+main {
+    padding-top: 20px;
+}
+
+b {
+    font-weight: bold;
+}
+
+.purple-text {
+    color: blueviolet;
+}
+
+p {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.greenbox {
+    border: 10px solid green;
+    padding: 20px;
+    margin: 20px;
+}
+
+.blacbox {
+    border: 10px solid black;
+    height: 30px;
+    width: 30px;
+    padding: 25px;
+}
+
+footer {
+    border-top: 3px solid blueviolet;
+    padding-top: 20px;
+}

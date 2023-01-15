@@ -1,0 +1,4 @@
+url - uygulamadeneme.epizy.com
+hostname- ftpupload.net
+username- epiz_33259697
+password- m07NicS6y3G
