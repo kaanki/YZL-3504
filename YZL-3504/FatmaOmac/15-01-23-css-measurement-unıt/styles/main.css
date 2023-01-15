@@ -57,9 +57,23 @@ main>section .box {
 
 }
 
-main> .section-2 .bıx {
+main>.section-2 .box {
   width: 20%;
 }
+
+
+main> .section-3 .box {
+  width: 20vw;
+  height: 20vh;
+}
+
+main> .section-4 .box {
+  width: 10rem;
+  height: 10rem;
+}
+
+
+
 /*---page footer styles----*/
 
 #page>footer {
