@@ -1,0 +1,80 @@
+* {
+   box-sizing: border-box;
+}
+h1 {
+   font-size: 2rem;
+}
+section {
+   background-color: beige;
+   margin: 48px;
+   padding: 48px;
+   border-radius: 16px;
+}
+section .container{
+border: 2px solid blue;
+}
+
+
+/* örnek 1 */
+
+section:nth-child(1) .container{
+width: 600px;
+display: flex;
+/* eşit dağıtmak için space evenly kullanıyoruz-yana doğru eşit dağılıyor üst ve alt kalıyor sadece*/
+justify-content: space-evenly;
+/*üst ve altı da 24 px eşitlemek için üst ve alttan 24px veriyorouz sağ ve soldan 0px yapıyoruz*/
+padding: 24px 0;
+
+
+}
+section:nth-child(1) .box {
+   border: 2px solid red;
+   width: 120px;
+   height: 120px;
+
+
+}
+
+/*örnek 2 */
+
+section:nth-child(2) .container{
+display: flex;
+width: 50%;
+justify-content: space-evenly;
+}
+
+section:nth-child(2) .box {
+   border: 2px solid red;
+   width: calc((100% - 120px )/4);
+   height: 100px;
+   /*yine üstten alttan eşitlemek için kutulara margin verilebilir*/
+   margin: 24px 0;
+}
+
+/* örnek 3 */
+section:nth-child(3) .container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   }
+   
+   section:nth-child(3) .box {
+      border: 2px solid red;
+      width: calc((100% - 50px )/4);
+      height: 100px;
+      /*yine üstten alttan eşitlemek için kutulara margin verilebilir*/
+      margin: 24px 0;
+   }
+
+   /*örnek 4*/
+   section:nth-child(4) .container{
+      display: flex;
+      justify-content:space-between;
+      }
+      
+      section:nth-child(4) .box {
+         border: 2px solid red;
+         width: calc((100% - 48px )/3);
+         height: 100px;
+         margin: 24px 0;
+      }

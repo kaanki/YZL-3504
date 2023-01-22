@@ -1,0 +1,21 @@
+
+* {
+   box-sizing: border-box;
+}
+
+section{
+   border: 2px solid red;
+   padding: 24px;
+}
+/*tüm sectionların başına (ilk child) istediğimizi ekleyebiliyoruz*/
+
+section::before{
+   content: "Hi I am before :)";
+   color: pink;
+}
+
+/*::after ise son çocuk olarak ekliyor*/
+section.favorite-friend::after {
+   content: "❤️";
+
+}
