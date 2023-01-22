@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+}
+
+.card{
+    border: 2px solid gray;
+    width: 300px;
+}
+
+.card > .content{
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.card .content-left{
+    background-color: pink;
+    width: 70%;
+    height: 200px;
+    background-image: url(../img/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card .content-right{
+    background-color: lightgreen;
+    width: 30%;
+}
+
+.card > footer{
+    border: 2px solid yellow;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    
+}
+
+.card > footer a{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.card > footer .ghost{
+    /*display: none; veya*/
+    opacity: 0;
+}
+
+/*hoover pseudo class'ıdır. Footer'ın üzerine gelindiğinde- demektir.*/
+.card > footer:hover .ghost{
+    opacity: 1;
+}
