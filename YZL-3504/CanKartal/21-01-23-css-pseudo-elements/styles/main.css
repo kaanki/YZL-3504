@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+section{
+    border: 2px solid red;
+    padding: 24px;
+}
+
+section::before{
+    content: "hi befor :)";
+    color: pink;
+}
+
+section::after{
+    content: "💔";
+    color: blue;
+}
+
+section.favorite-friend::after{
+    content: "💔";
+    color: blue;
+}
+
