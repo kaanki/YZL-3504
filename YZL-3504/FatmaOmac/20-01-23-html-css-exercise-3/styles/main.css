@@ -1,0 +1,35 @@
+.daire {
+   background-color: pink;
+   border: 5px solid black;
+   height: 50px;
+   width: 50px;
+   border-radius: 100px;
+}
+.kare {
+   background-color: pink;
+   border: 5px solid black;
+   height: 50px;
+   width: 50px;
+
+}
+.daire3 {
+   background-color: blue;
+   border: 5px solid black;
+   height: 50px;
+   width: 50px;
+   border-radius: 100px;
+}
+.kare2 {
+   background-color: blue;
+   border: 5px solid black;
+   height: 50px;
+   width: 50px;
+
+}
+.kare3 {
+   background-color:pink;
+   border: 5px solid black;
+   height: 50px;
+   width: 50px;
+
+}

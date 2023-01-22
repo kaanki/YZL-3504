@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    border: 5px solid blue;
+    width: 60%;
+    height: 150px;
+    margin:100px auto;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.box{
+    border: 5px solid red;
+    margin: 24px 12px;
+    width: 25%;
+}
+.box.first{
+    margin-left:24px;
+
+}
+
+.box.last{
+    margin-right:24px;
+    
+}
