@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    color:inherit;
+}
+
+.card {
+    border: 1px solid black;
+    width: 500px;
+
+}
+
+.card>.content {
+    display: flex;
+}
+
+.card .content-left {
+    background-color: pink;
+    height: 200px;
+    width: 70%;
+    background-image: url(../img/teddy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card .content-right {
+    background-color: lightgreen;
+    width: 30%;
+}
+
+.card>footer {
+    background-color: black;
+    color: white;
+}
+
+.card > footer a{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.card > footer a .ghost{
+
+    display: none;
+}
+
+.card:hover > footer .ghost{
+    display: block;
+}
+
