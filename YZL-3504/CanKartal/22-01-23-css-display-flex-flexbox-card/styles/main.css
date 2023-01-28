@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+.card{
+    border: 1px solid gray;
+    width: 300px;
+}
+
+.card > .content{
+    display: flex;
+    border: 2px solid yellow;
+    flex-direction: row;
+    
+}
+
+
+.card .col-left{
+    background-color: pink;
+    width: 70%;
+    height: 200px;
+    background-image: url(../img/logo.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+
+.card .col-right{
+    background-color:lightgreen;
+    width: 30%;
+}
+
+
+.card > footer{
+    border: 2px solid yellow;
+    background-color: #333;
+    
+}
+
+
+.card > footer a{
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.card> footer .ghost{
+    /*display: none;*/
+    opacity: 0;
+}
+
+.card> footer:hover .ghost{
+    opacity: 1;
+}
