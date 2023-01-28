@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    border: 2px solid red;
+    width: 300%;
+    height: 100%;
+    display: flex;
+}
+
+.carousel .slide {
+    width: 33.3333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.carousel .slide.slide-1 {
+    border: 4px solid purple;
+
+}
+
+.carousel .slide.slide-2 {
+    border: 4px solid orange;
+
+}
+
+.carousel .slide.slide-3 {
+    border: 4px solid yellow;
+
+}
+
+.carousel > nav {
+    border: 4px solid green;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.carousel > nav button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel > nav button.active{
+    background-color: black;
+    color :white;
+}

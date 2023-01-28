@@ -1,0 +1,19 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   background-color: green;
+}
+
+@media screen and ( min-width:1001px ) {
+   body {
+      background-color: blue;
+   }
+   
+}
+@media screen and (min-width:1500px) {
+   
+   body {
+      background-color: orangered;
+   }
+}

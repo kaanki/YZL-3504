@@ -78,3 +78,33 @@ section:nth-child(3) .container{
          height: 100px;
          margin: 24px 0;
       }
+       /*örnek 5*/
+
+   section:nth-child(5) .container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      
+      }
+
+      section:nth-child(5) .col-left {
+         border: 10px solid green;
+      }
+
+      section:nth-child(5) .col-right {
+         border: 10px solid purple;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+      }
+     section:nth-child(5) .logo {
+      border: 2px solid red;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+     }
+
+     section:nth-child(5) nav {
+      border: 1px solid red;
+     }
