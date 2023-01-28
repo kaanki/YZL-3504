@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+/* position : static;
+position : relative;
+position : absolute;
+position : fixed; */
+
+body{
+    height: 3000px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.container-1 .box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.container-1 .box-1 {
+    background-color: purple;
+
+}
+
+.container-1 .box-2 {
+    background-color: orangered;
+    position: relative;
+    /* top right bottom left  */
+    top: -50px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+.container-1 .box-3 {
+    position: relative;
+    /* top right bottom left  */
+    top: -100px;
+    left: 100px;
+}
+
+/* .box-3:hover {
+    z-index: 999;
+    width: 120px;
+    height: 120px;
+} */
+
+.container-2 {
+    border: 2px solid red;
+    padding: 16px;
+    margin: 24px;
+    position: relative;
+}
+
+.container-2>.box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.49);
+}
+
+.container-2>.box-1 {
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+.container-2>.box-2 {
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.container-2>.box-3 {
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
+
+.container-2>.box-4 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+
+footer{
+    padding: 24px;
+    background-color: rgba(61, 61, 61, 0.514);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
