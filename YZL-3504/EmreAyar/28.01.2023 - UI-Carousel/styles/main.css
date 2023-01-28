@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.carousel{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel .slider{
+    border: 2px solid red;
+    width: 300%;
+    height:100%;
+    display: flex;
+}
+
+.carousel .slide{
+    border: 2px solid blue;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.carousel .slide:first-child{
+    background-color: aqua;
+}
+
+.carousel .slide:nth-child(2){
+    background-color: blue;
+}
+
+.carousel .slide:nth-child(3){
+    background-color: orangered;
+}
+
+.carousel > nav{
+    border: 2px solid lightgreen;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+}
+
+.carousel > nav button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.carousel > nav button.active{
+    background-color: black;
+    color: white;
+}
