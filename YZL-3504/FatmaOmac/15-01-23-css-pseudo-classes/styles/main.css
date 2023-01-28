@@ -32,3 +32,11 @@ ol>li {
 .my-list-2 li:nth-child(even) {
    color: rgb(08, 09, 98);
 }
+
+/* hover pseudo class*/
+button:hover {
+   background-color: red;
+   color: white;
+   /*buttonun üzeri ne geldiğinde el işareti çıkması için*/
+   cursor: pointer;
+}
