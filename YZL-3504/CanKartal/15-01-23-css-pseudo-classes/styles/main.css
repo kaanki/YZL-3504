@@ -36,3 +36,8 @@ h1{
     color: red;
 }
 
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
