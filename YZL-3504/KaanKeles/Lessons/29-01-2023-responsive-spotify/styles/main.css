@@ -95,36 +95,54 @@ main section.banner .col {
     background-color: white;
 }
 
-.wrapper-hamburger-nav{
+.wrapper-hamburger-nav {
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.534);
     position: absolute;
-    opacity: 0.453;
     z-index: 997;
 }
 
-.hamburger-popup{
-    color: white;
-    width: 80vw;
+.nav-hamburger {
+
+    max-width: 400px;
     height: 100vh;
-    margin-left: 20vw ;
+    margin-left: auto;
+    color: white;
     background-color: black;
-    position: absolute;
-    z-index: 998;
     padding: 36px;
-    
-}
-.hamburger-popup ul {
-    display: flex;
-    flex-direction: column;
-    gap:32px;
+
 }
 
-.hamburger-popup ul li a{
-    font-size: 32px;
-    
+.nav-hamburger ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
+
+.nav-hamburger ul li a {
+    font-size: 32px;
+
+}
+
+.nav-hamburger ul li a:hover {
+    color: green;
+
+}
+
+/* .nav-hamburger li:nth-child( 4)::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: white;
+} */
+
+.nav-hamburger li:nth-child(n + 5) a {
+    font-size: 24px;
+}
+
+
 
 @media screen and (min-width:700px) {
     main section.banner .limited-width {
