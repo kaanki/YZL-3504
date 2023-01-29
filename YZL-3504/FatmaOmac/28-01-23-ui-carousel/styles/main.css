@@ -3,10 +3,10 @@
 }
 .carousel {
    border: 2px solid black;
-   width: 100vw;
-   height: 100vh;
+   width: 500px;
+   height: 500px;
    position: relative;
-   overflow: hidden;
+   /*overflow: hidden;*/
 }
 
 .carousel .slider {
@@ -33,6 +33,7 @@
 .carousel .slide:nth-child(3) {
    background-color: darkorange;
 }
+
 .carousel nav {
    border: 2px solid lightcoral;
    position: absolute;
