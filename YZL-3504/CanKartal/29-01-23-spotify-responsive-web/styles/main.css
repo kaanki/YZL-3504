@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+:root{
+    /*custom property*/
+    /* my colors */
+    --clr-1:rgb(197, 136, 255);
+    --clr-2:black;
+    --clr-3:rgb(29, 117, 227, 255);
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.limited-width{
+    border:3px dotted rgb(0, 255, 0);
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+}
+
+.logo{
+    font-size:16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo i{
+    font-size: 32px;
+}
+
+
+
+#page-header{
+    border:2px solid blue;
+    background-color: var(--clr-2);
+    color: white;
+    padding: 24px;
+}
+
+main{
+    border:2px solid red;
+}
+main section.banner{
+    padding: 24px;
+    border: 10px solid red;
+    background-color: var(--clr-1)
+}
+
+main section.banner .col{
+    border: 2px solid red;
+    
+}
+
+#page-footer{
+    border:2px solid blue;
+}
+
+
+/* components*/
+/* Hamburger Nav*/
+
+.btn-hamburger{
+    background-color: var(--clr-2);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    position: absolute;
+    top: 34px;
+    right: 24px;
+    opacity:0.5;
+    z-index: 999;
+}
+
+.btn-hamburger span{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+
+.wrapper-hamburger-nav{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(165, 42, 42,
+    0.453);
+    position: absolute;
+    z-index: 998;
+}
+
+
+
+
+.wrapper-hamburger-nav nav{
+    background-color:black ;
+    height: 100vh;
+    max-width: 400px;
+    margin-left: auto;
+    color: white;
+    font-size: xx-large;
+    font-weight:bolder ;
+    display: flex;
+    padding: 32px;
+}
+
+
+.wrapper-hamburger-nav li:nth-child(4)::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 24px 0;
+}
+
+.wrapper-hamburger-nav li:nth-child(n+4) a{
+    font-size: small;
+    font: weight 400px; ;
+}
+
+.nav-hamburger a:hover{
+    color: green;
+}
+
+.nav-hamburger a{
+    background-color: red;
+    display: block;
+    padding: 24px;
+}
+
+
+
+
+
+
+@media screen and (min-width:750px){
+    main section.banner .limited-width{
+        display: flex;
+    }
+    
+    main section.banner .col{
+        width: 50%;
+    }
+}
