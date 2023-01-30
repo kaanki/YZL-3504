@@ -19,5 +19,5 @@ section > .container {
 section:first-child > .container{
    height: 300px;
    /*gerekli olan yerde scroll verir*/
-   overflow:auto;
+   overflow:clip;
 }
