@@ -9,7 +9,7 @@ img {
    /* my colors */
    --clr-1:rgb(197,162,230);
    --clr-2:black;
-   --clr-3:rgba(29,117,222,255)
+   --clr-3:rgb(29,117,222)
 }
 body{
    font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,7 @@ a{
 }
 
 .limited-width{
-   border: 3px dotted green;
+
    max-width: 1000px;
    /* header kısmında büyüdükçe kendini ortalıyor*/
    margin: 0 auto;
@@ -41,16 +41,11 @@ a{
 }
 
 #page-header {
-border: 2px solid blueviolet;
+
 background-color:var(--clr-2);
 color: white;
 padding: 24px;
 } 
-
-main{
-border: 2px solid red;
-
-}
 
 main section.banner {
 padding: 24px;
@@ -59,13 +54,29 @@ background-color:var(--clr-1);
 }
 
 main section.banner .col {
-   border: 2px solid brown
+   border: 2px solid blueviolet }
+   
+
+.col-left {
+  
+   padding:20px
 }
 
+footer {
+   font-family: 'Montserrat', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 100px;
+   margin-top: auto;
+}
+footer h1{
+   font-weight:bold;
+}
 
-#page-footer {
-border: 2px solid orange;
-
+.başlık2{
+   text-align: left;
 }
 
 
@@ -97,7 +108,7 @@ background-color: white;
 .wrapper-hamburger-nav {
    width: 100vw;
    height: 100vh;
-   background-color: rgba(165, 42, 42, 0.512);
+   background-color: rgb (165, 42, 42);
    position: absolute;
    z-index: 998;
    
@@ -111,8 +122,6 @@ background-color: white;
    padding-top: 48px;
    padding-left: 48px;
   
- 
-   
 }
 
 .nav-hamburger a {
@@ -122,10 +131,8 @@ background-color: white;
    color: white;
    font-size: 2rem;
    font-weight: 700;
-
    
 }
-
 
 .nav-hamburger a:hover {
    color: green
@@ -144,19 +151,6 @@ background-color: white;
    background-color: white;
    margin: 24px 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
