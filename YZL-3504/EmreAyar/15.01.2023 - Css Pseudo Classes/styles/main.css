@@ -41,3 +41,11 @@ ol>li {
 .my-list-2 li:nth-child(even){
     color: blue;
 }
+
+/* :hover pseudo class*/
+
+button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}

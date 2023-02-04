@@ -1,0 +1,106 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Head */
+.header {
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spotify-logo {
+    margin: 5px 150px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.text-spotify {
+    margin-top: 6px;
+    margin-left: 2px;
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    padding-right: 200px;
+    padding-top: 6px;
+}
+
+
+.nav-type {
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-links nav {
+    margin: 5px 20px;
+}
+
+/* End Head */
+
+/* Main*/
+
+.content {
+    background-color: #af93c4;
+    display: flex;
+    padding: 30px 10%;
+    height: 500px;
+}
+
+.content .content-left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content .content-right {
+    justify-content: center;
+    width: 45%;
+    margin: 40px 0px;
+
+}
+
+button {
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+.content .content-footer{
+    display: inline;
+    font-size: 8px;
+}
+
+/* End Main*/
+
+/* Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer{
+    text-align: center;
+}
+
+
+/* End Footer*/

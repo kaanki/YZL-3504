@@ -1,0 +1,52 @@
+* {
+   box-sizing: border-box;
+}
+.carousel {
+   border: 2px solid black;
+   width: 500px;
+   height: 500px;
+   position: relative;
+   /*overflow: hidden;*/
+}
+
+.carousel .slider {
+   border: 2px solid red;
+   width: 300%;
+   height: 100%;
+   display: flex;
+}
+.carousel .slide {
+   border: 2px solid blueviolet;
+   width: 33.3333%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   color: aliceblue;
+}
+.carousel .slide:first-child {
+   background-color: blueviolet;
+}
+.carousel .slide:nth-child(2) {
+   background-color: lawngreen
+}
+.carousel .slide:nth-child(3) {
+   background-color: darkorange;
+}
+
+.carousel nav {
+   border: 2px solid lightcoral;
+   position: absolute;
+   right: 24px;
+   top: 24px;
+}
+
+.carousel > nav button:hover {
+   background-color: black;
+   color: wheat;
+   
+}
+.carousel > nav button.active {
+   background-color: black;
+   color: white;
+}

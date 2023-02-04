@@ -1,43 +1,51 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
 
-ol{
+ol {
     margin: 40px;
 }
 
-ol > li{
+ol>li {
     list-style: decimal;
 }
 
-.my-list-1 li:last-child{
+.my-list-1 li:last-child {
     color: red;
 }
 
-.my-list-1 li:first-child{
+.my-list-1 li:first-child {
     color: blue;
 }
 
-.my-list-1 li:nth-child(3){
+.my-list-1 li:nth-child(3) {
     color: teal;
 }
 
-.my-list-2 li:nth-child(odd){
+.my-list-2 li:nth-child(odd) {
     color: aqua;
 }
 
-.my-list-2 li:nth-child(even){
+.my-list-2 li:nth-child(even) {
     color: green;
 }
 
-.my-list-2 li:nth-child(2n+1){
+.my-list-2 li:nth-child(2n+1) {
     color: aqua;
 }
 
-.my-list-2 li:nth-child(2n){
+.my-list-2 li:nth-child(2n) {
     color: green;
+}
+
+
+/* :hover pseudo class */
+button:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }

@@ -1,0 +1,31 @@
+* {
+   box-sizing: border-box;
+}
+div{
+   border: 2px solid blue;
+
+} 
+
+
+.container{
+   width: 60%;
+   height:100px;
+   margin: 60px auto;
+   border-color: blue;
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items:center;
+
+  
+
+
+ }
+ .box {
+    width: 50%;
+    height: 50px;
+    border-color: red;
+    margin: 24px;
+ 
+
+ }

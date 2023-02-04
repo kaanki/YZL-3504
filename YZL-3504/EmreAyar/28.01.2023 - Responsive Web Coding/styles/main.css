@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+    /* 0 - 700px */
+}
+
+@media screen and (min-width:700px) {
+
+    body {
+        background-color: blue
+            /* 700px - 1000px */
+    }
+}
+
+@media screen and (min-width:1000px){
+
+    body{
+        background-color: orangered;
+        /* 1000px - sonsuz */
+    }
+    
+}

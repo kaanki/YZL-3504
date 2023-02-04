@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+header>div a {
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    color: white;
+
+}
+
+.icon {
+    width: 100%;
+    margin-left: 256px;
+    font-size: 24px;
+    font-weight: bolder;
+    display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 256px;
+}
+
+main>div:nth-child(1) {
+    display: flex;
+}
+
+main>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-1 {
+    background-color: #af93c4;
+    height: 500px;
+}
+
+.container-2 {
+    height: 350px;
+    background-color: rgb(238, 238, 233);
+}
+
+.box-1 {
+    width: 60%;
+    margin-left: 256px;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.box-2 {
+    width: 40%;
+    background-image: url(../img/image\ 1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 256px;
+
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 48px 0 12px;
+}
+
+.click {
+    background-color: black;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 40px;
+    margin: 32px 0;
+}
+
+span {
+    color: white;
+    font-weight: bolder;
+
+}
+
+main .container-1 footer {
+    font-size: smaller
+}
+
+.white-color{
+    color: white;
+}

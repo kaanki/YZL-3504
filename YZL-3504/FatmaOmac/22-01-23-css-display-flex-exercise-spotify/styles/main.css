@@ -1,0 +1,120 @@
+* {
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+}
+
+/* header css */
+
+.navbar {
+   background-color: black;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   height: 60px;
+   padding: 0 10%;
+
+}
+
+.navbar a {
+   text-decoration: none;
+   color:aliceblue;
+   padding: 16px;
+}
+.logo {
+   margin: 5px 150px;
+   display: flex;
+   flex-direction: row;
+   color: white;
+   height: 40px;
+   width: 40px;
+}
+.spotify-text {
+   margin-top: 6px;
+   margin-left: 2px;
+}
+
+/* main css*/
+
+div {
+   display: block;
+ }
+h1{
+   font-weight:bolder;
+ }
+ .başlık1 {
+   margin-bottom: 8px;
+   font-size: 10px;
+   font-weight: 600;
+   line-height: 16px;
+ 
+ }
+ .başlık2 {
+   margin: 0px;
+   padding: 0px;
+   font-weight: 900;
+   max-width: 100%;
+  
+ }
+ 
+
+.container  {
+  
+   background-color: rgb(175, 147, 196);
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   
+}
+
+.content {
+   display: flex;
+   flex-direction: row;
+  
+}
+   
+ 
+   
+.content-left {
+
+   width: 70%;
+   padding: 60px 60px;
+  
+   
+}
+
+.content-right {
+   width: 30%;
+
+}
+span.button{
+   position:relative;
+   background-color: var(--background-base,#0c0c0c);
+   color: var(--text-base,#f6f3f3);
+   border-radius: 500px;
+   font-size: inherit;
+   padding-block: 14px;
+   padding-inline: 32px;
+
+}
+
+
+   /* footer css*/
+
+footer {
+   font-family: 'Montserrat', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 100px;
+  margin-top: auto;
+}
+footer h1{
+   font-weight:bold;
+}
+
+.başlık2{
+   text-align: left;
+}
