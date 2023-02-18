@@ -17,6 +17,7 @@ body{
 .navbar {
   background-color: #f44336;
 
+
 }
 .navbar ul {
    color: white;
@@ -25,7 +26,6 @@ body{
    width: 100vw;
    height: 30px;
    align-items: center;
-   padding: 5px;
    
 }
 li {
@@ -48,32 +48,23 @@ h1 {
    font-size: 64px;
    
 }
-p.col-text {
+
+.col {
    font-size: 16px;
-   margin-top: 50px;
+   margin: 40px;
 }
 
 
+
 main .red-area {
-   border: 2px solid rgb(246, 87, 87);
+   border: 2px solid rgba(225,82,65,255);
    text-align: center;
    background-color: #f44336;
    color: white;
    height: 250px;
    width: 100%vw;
   
-}
-
-.container {
-   padding-left: 170px;
-   padding-right: 170px;  
-  
-}
-.container2 {
-   padding-left: 170px;
-   padding-right: 170px;          
-}
-
+} 
 
 button{
    color: white;
@@ -84,16 +75,21 @@ button{
 }
 
  section.banner .container {
-  
-   display: flex;
+ 
+   padding:50px 170px;
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
    background-color: rgb(255, 255, 255);
 }
 
 section.banner .container2{
+   padding:50px 170px;
+   background-color: rgba(241,241,241,255);
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
 
-   background-color: rgba(128, 128, 128, 0.422);
-   width: 100%vw;
-   display: flex;
   
 }
 
