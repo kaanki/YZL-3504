@@ -82,7 +82,9 @@ main section.banner .col {
     position: absolute;
     top: 24px;
     right: 24px;
+    cursor: pointer;
     z-index: 999;
+    background-color: red;
 }
 
 .btn-hamburger span {
@@ -92,12 +94,33 @@ main section.banner .col {
     background-color: white;
 }
 
+.btn-hamburger.close span:nth-child(1) {
+    transform: translateY(3px) rotate(45deg);
+}
+
+.btn-hamburger.close span:nth-child(2) {
+    display: none;
+}
+
+.btn-hamburger.close span:nth-child(3) {
+    transform: translateY(-2px) rotate(-45deg);
+}
+
 .wrapper-hamburger-nav {
     width: 100vw;
     height: 100vh;
     background-color: rgba(165, 42, 42, 0.432);
     position: absolute;
     z-index: 998;
+    display: none;
+}
+
+.wrapper-hamburger-nav.on {
+    display: block;
+}
+
+.wrapper-hamburger-nav.on .nav-hamburger {
+    transform: translateX(0);
 }
 
 .nav-hamburger {
@@ -107,6 +130,7 @@ main section.banner .col {
     margin-left: auto;
     padding-top: 48px;
     padding-left: 48px;
+    transform: translateX(100%);
 }
 
 .nav-hamburger li:nth-child(4)::before {
@@ -163,4 +187,56 @@ main section.banner .col {
     }
 
 
+}
+
+@media screen and (min-width:1000px) {
+    #page-header .limited-width{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .btn-hamburger {
+        display: none;
+    }
+
+    .wrapper-hamburger-nav {
+        display: block;
+        position: static;
+        width: 500px;
+        height: auto;
+    }
+
+    .wrapper-hamburger-nav .nav-hamburger {
+        transform: translateX(0);
+        height: auto;
+        padding: 0;
+        margin-left: 0;
+        max-width: none;
+    }
+
+    .nav-hamburger ul {
+        display: flex;
+        justify-content: flex-end;
+        gap: 24px;
+    }
+
+    .nav-hamburger a {
+        font-size: 16px !important;
+        font-weight: bold !important;
+    }
+
+    .nav-hamburger li {
+        position: relative
+    }
+
+    .nav-hamburger li:nth-child(4)::before {
+        width: 2px;
+        height: 30px;
+        margin: 0;
+        display: inline-block;
+        position: absolute;
+        top: 16px;
+        left: -12px;
+    }
 }

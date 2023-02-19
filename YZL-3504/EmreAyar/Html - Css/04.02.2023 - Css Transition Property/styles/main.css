@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background-color 1s ease-in 0s;
+
+}
+
+
+.box:hover{
+    background-color: black;
+}
