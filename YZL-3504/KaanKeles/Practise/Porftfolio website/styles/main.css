@@ -27,6 +27,7 @@ img {
 h1 {
     font-size: 24px;
     font-weight: 400;
+    opacity: 1;
 }
 
 a {
@@ -47,16 +48,18 @@ header {
 }
 
 .bg-img1 {
-    width: 100vw;
-    height: 400px;
     background-image: url(../img/parallax1.jpg);
+}
+
+.background-img {
+
+    height: 400px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     min-height: 400px;
-
 }
 
 header .nav-wrapper {
@@ -122,11 +125,15 @@ section.about-me-wrapper {
     gap: 24px;
 }
 
-.center-text{
+.center-text {
     text-align: center;
 }
 
-section.skills{
+.white-text {
+    color: white;
+}
+
+section.skills {
     border: 2px solid red;
     display: flex;
     flex-direction: column;
@@ -134,27 +141,98 @@ section.skills{
     align-items: center;
 }
 
-section .progress-bar{
+section .progress-bar {
     border: 2px solid black;
     width: 60vw;
+    height: 28px;
+    position: relative;
 }
 
-.proggress-fill-95{
+.center-progress-text {
+
+    position: absolute;
+    right: 50%;
+}
+
+.letter-spacing {
+    letter-spacing: 12px;
+}
+
+.proggress-fill-95 {
     width: 95%;
     height: 100%;
     background-color: black;
 }
 
-.proggress-fill-75{
+.proggress-fill-75 {
     width: 75%;
     height: 100%;
     background-color: black;
 }
 
-.proggress-fill-85{
+.proggress-fill-85 {
     width: 85%;
     height: 100%;
     background-color: black;
 }
 
 
+section .dark-box {
+    background-color: #616161;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.portfolio-background {
+    background-image: url(../img/parallax2.jpg);
+    height: 100%;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+div.my-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 10vw;
+}
+
+.btn-load-more {
+    margin-top: 64px;
+    padding: 12px 24px;
+    color: #000;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+section .contact-background {
+    background-image: url(../img/parallax3.jpg);
+    height: 100%;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
