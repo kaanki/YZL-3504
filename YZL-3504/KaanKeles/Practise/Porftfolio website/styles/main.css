@@ -16,8 +16,11 @@ html {
 }
 
 * {
-    opacity: 0.95;
     font-family: "Lato", sans-serif;
+}
+
+.opacity-75 {
+    opacity: 0.75;
 }
 
 img {
@@ -104,7 +107,7 @@ section.about-me-wrapper {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 20vw;
+    padding: 5vh 20vw;
     gap: 12px;
 }
 
@@ -134,7 +137,6 @@ section.about-me-wrapper {
 }
 
 section.skills {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,8 +215,9 @@ div.my-images {
     justify-content: center;
     flex-wrap: wrap;
     gap: 16px;
-    padding: 0 10vw;
+    padding: 0 8vw;
 }
+
 
 .btn-load-more {
     margin-top: 64px;
@@ -235,4 +238,39 @@ section .contact-background {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    background-color: black;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+footer .btn-to-top {
+    padding: 12px 24px;
+    background-color: white;
+}
+
+section div.where-i-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+div.map-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10vw;
+    gap: 24px;
+}
+
+.map-left-content{
+    width: 20vw;
 }

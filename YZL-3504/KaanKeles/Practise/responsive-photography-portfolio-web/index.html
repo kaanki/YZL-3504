@@ -1,0 +1,141 @@
+<!-- code snippets for vs -->
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Müzik">
+    <title>portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" href="img/spotify.svg">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fonts.google.com montserrat font family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+    <div id="root">
+
+
+        <header>
+
+            <!-- Home link-->
+            <a href="#" class="link-home">Home</a>
+
+
+            <!-- nan main -->
+            <nav class="nav-main">
+                <button class="btn-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <ul>
+                    <li>
+                        <a href="#">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Search
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- search button -->
+            <button class="btn-search">
+                <i class="fa fa-search"></i>
+            </button>
+
+        </header>
+        <main>
+            <section class="section-about">
+                <header>
+                    <h1 class="logo">MY WEBSITE LOGO</h1>
+                </header>
+                <div class="container-content limited-width-container"></div>
+            </section>
+            <section class="section-portfolio">
+                <header>
+                    <h1>PORTFOLIO</h1>
+                </header>
+                <div class="container-content limited-width-container"></div>
+            </section>
+            <section class="section-contact">
+                <header>
+                    <h1>CONTACT</h1>
+                </header>
+                <div class="container-content limited-width-container">
+                    <div>
+                        <h1>where i work</h1>
+                        <p>I'd love your feedback</p>
+                        <div class="wrapper-contact-frm">
+                            <figure class="col col-1">
+                                <img src="img/map.jpg">
+                            </figure>
+                            <div class="col col-2">
+                                <ul>
+                                    <li>
+                                        <i class="fa fa-map-marker"></i>
+                                        Chicago, US
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-phone"></i>
+                                        Phone: +00 151515
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope"></i>
+                                        Email: mail@mail.com
+                                    </li>
+                                </ul>
+
+                                <form action="">
+                                    <input type="text" placeholder="Name"
+                                    name="user-name">
+                                    <input type="email" placeholder="Email"
+                                    name="user-email">
+                                    <textarea id="" cols="30" rows="10" placeholder="Message"
+                                    name="user-message">
+                                    </textarea>
+                                    <button type="submit"> Send message</button>
+                                </form>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
