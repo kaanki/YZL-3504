@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+
+    --clr-1: red;
+
+}
+
+img {
+
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+.limited-width-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#root>header {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    z-index: 999;
+}
+
+.logo {
+    background-color: rgba(32, 32, 32, 0.782);
+}
+
+#root>header .btn-search {
+    display: none;
+}
+
+
+main>section>header {
+    height: 400px;
+    background-image: url("../img/parallax1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+main>section>header::after {
+    content: "";
+    display: block;
+    background-color: rgba(188, 188, 188, 0.4);
+    width: 100%;
+    height: 100%;
+}
+
+main>section>header h1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-size: 56px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+main>section>.container-content {
+    min-height: 200px;
+}
+
+main .section-portfolio header {
+    background-image: url("../img/portfolio.jpg");
+}
+
+main .section-contact header {
+    background-image: url("../img/contact.jpg");
+}
+
+main .section-contact .wrapper-contact-frm {
+    border: 10px solid red;
+}
+
+main .section-contact .wrapper-contact-frm .col {
+    border: 10px solid blue;
+}
+
+/* --- Navigations --- */
+.nav-main {
+    text-align: right;
+}
+
+.nav-main a {
+    display: block;
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+.nav-main a:hover {
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    padding: 8px 0;
+    align-self: flex-end;
+}
+
+@media screen and (min-width:1000px) {
+
+    #root>header {
+        display: flex;
+    }
+
+    .nav-main ul {
+        display: flex;
+    }
+
+    .nav-main {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    }
+
+    .nav-main .btn-toggle {
+        display: none;
+    }
+
+    #root>header .btn-search {
+        display: unset;
+    }
+
+    .wrapper-contact-frm {
+        display: flex;
+    }
+
+    .wrapper-contact-frm .col-1 {
+        flex-basis: 30%;
+    }
+
+    .wrapper-contact-frm .col-2 {
+        flex-basis: 70%;
+    }
+
+    form {
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        
+    }
+
+    form input[name="user-name"],
+    form input[name="user-email"] {
+        flex-basis: 50%;
+    }
+
+    form textarea[name="user-message"]{
+        flex-basis: 100%;
+    }
+}

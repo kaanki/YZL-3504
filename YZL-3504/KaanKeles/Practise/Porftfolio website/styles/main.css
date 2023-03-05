@@ -1,0 +1,276 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+* {
+    font-family: "Lato", sans-serif;
+}
+
+.opacity-75 {
+    opacity: 0.75;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    margin-right: 2px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+}
+
+.bg-img1 {
+    background-image: url(../img/parallax1.jpg);
+}
+
+.background-img {
+
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    min-height: 400px;
+}
+
+header .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 32px 8px 8px;
+}
+
+header .nav-wrapper .nav-menu {
+    display: flex;
+    gap: 12px;
+}
+
+
+.logo-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-wrapper .my-logo {
+    letter-spacing: 10px;
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    opacity: 0.95;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+section.about-me-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 20vw;
+    gap: 12px;
+}
+
+.about-me-bottom-left {
+    text-align: center;
+    flex: 1 1 0;
+}
+
+.about-me-bottom-right {
+    flex: 1 1 0;
+}
+
+.about-me-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+}
+
+section.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section .progress-bar {
+    border: 2px solid black;
+    width: 60vw;
+    height: 28px;
+    position: relative;
+}
+
+.center-progress-text {
+
+    position: absolute;
+    right: 50%;
+}
+
+.letter-spacing {
+    letter-spacing: 12px;
+}
+
+.proggress-fill-95 {
+    width: 95%;
+    height: 100%;
+    background-color: black;
+}
+
+.proggress-fill-75 {
+    width: 75%;
+    height: 100%;
+    background-color: black;
+}
+
+.proggress-fill-85 {
+    width: 85%;
+    height: 100%;
+    background-color: black;
+}
+
+
+section .dark-box {
+    background-color: #616161;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px 0;
+    text-align: center;
+}
+
+.portfolio-background {
+    background-image: url(../img/parallax2.jpg);
+    height: 100%;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.my-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+div.my-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 8vw;
+}
+
+
+.btn-load-more {
+    margin-top: 64px;
+    padding: 12px 24px;
+    color: #000;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+section .contact-background {
+    background-image: url(../img/parallax3.jpg);
+    height: 100%;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+footer .btn-to-top {
+    padding: 12px 24px;
+    background-color: white;
+}
+
+section div.where-i-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+div.map-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 10vw;
+    gap: 24px;
+}
+
+.map-left-content{
+    width: 20vw;
+}

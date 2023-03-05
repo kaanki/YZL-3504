@@ -1,6 +1,0 @@
-hosting company: infinityfree.net
-url: emreayar.rf.gd
-password: Admin123
-ftp username: epiz_33258802
-ftp hostname:ftpupload.net
-ftp password: HJERXQsgFAmdQ
