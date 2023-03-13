@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fatma Portfolio</title>
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./styles/main.js" defer></script>
+
+    <!-- fontawesome.com-->
+    <script
+      src="https://kit.fontawesome.com/84d2c71d4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--favicon-->
+    <link rel="icon" href="./images/moon-solid.svg" />
+
+    <!--fonts.google - IBM Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="root">
+      <header>
+        <a href="index.html" class="logo-main">
+          <img src="./images/moon-solid.svg" alt="logo" srcset="" />
+          <span class="text">
+            <strong> Fatma Omaç</strong>
+            <span>Frontend Developer</span>
+          </span>
+        </a>
+
+        <nav class="nav-main">
+          <ul>
+            <li> <a href="about.html">Hakkımda</a>
+             </li>
+            <li> <a href="works.html">Çalışmalarım</a> </li>
+            <li><a href="contact.html">İletişim</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <!--Carousel begins-->
+        <div class="carousel">
+          <nav>
+            <button type="button" class="active" data-index="0">1</button>
+            <button type="button" data-index="1">2</button>
+            <button type="button" data-index="2">3</button>
+          </nav>
+          <div class="slider">
+            <div class="slide">
+              <h2>
+                İstanbul'da yaşıyorum. Freelance iş tekliflerinize açığım.
+              </h2>
+            </div>
+            <div class="slide"></div>
+            <div class="slide"></div>
+          </div>
+        </div>
+        <!--Carousel end-->
+
+        <!--Card start-->
+        <section class="section-featured-works">
+          <h2>Öne Çıkan İşlerim</h2>
+          <ul>
+            <li class="card">
+              <a href="#" class="full-link-cover"></a>
+              <figure>
+                <img src="./images/07.jpg" alt="" />
+                <figcaption>Responsive Web Project</figcaption>
+              </figure>
+              <h2>Çalışma</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, optio?
+              </p>
+            </li>
+
+            <li class="card">
+              <a href="#" class="full-link-cover"></a>
+              <figure>
+                <img src="./images/07.jpg" alt="" />
+                <figcaption>React Project</figcaption>
+              </figure>
+              <h2>Çalışma</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, optio?
+              </p>
+            </li>
+
+            <li class="card">
+              <a href="#" class="full-link-cover"></a>
+              <figure>
+                <img src="./images/07.jpg" alt="" />
+                <figcaption>Js Project</figcaption>
+              </figure>
+              <h2>Çalışma</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, optio?
+              </p>
+            </li>
+            <li class="card">
+              <a href="#" class="full-link-cover"></a>
+              <figure>
+                <img src="./images/07.jpg" alt="" />
+                <figcaption>Type Script Project</figcaption>
+              </figure>
+              <h2>Çalışma</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae, optio?
+              </p>
+            </li>
+          </ul>
+        </section>
+        <!--Card start-->
+
+        <section class="section-latest-blog-posts">
+          <h2>Blog Yazılarım</h2>
+          <ul>
+            <li class="blog">
+              <a href="#" target="_blank">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Blanditiis, ea.</a
+              >
+            </li>
+            <li class="blog">
+              <a href="#" target="_blank">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Blanditiis, ea.</a
+              >
+            </li>
+            <li class="blog">
+              <a href="#" target="_blank">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Blanditiis, ea.</a
+              >
+            </li>
+            <li class="blog">
+              <a href="#" target="_blank">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Blanditiis, ea.</a
+              >
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer>
+        <nav class="nav-social">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/fatma.omac/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i> İnstagram</a
+              >
+            </li>
+
+            <li>
+              <a href="https://github.com/fatmaomac" target="_blank"
+                ><i class="fa-brands fa-github"></i> Githup</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

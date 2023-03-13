@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+}
+img {
+   max-width: 100%;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+}
+:root {
+   --clr-primary: #372948;
+   --clr-2: #251B37;
+   --clr-3:#150050;
+   --clr-4: #DEBACE;
+}
+.limited-width-container {
+   max-width: 1100px;
+   margin: 0 auto;
+}
+a{
+   color: inherit;
+   text-decoration: none;
+}
+
+header {
+   background-color: var(--clr-primary);
+ }
+ #root > header {
+   padding: 16px;
+}
+
+ main {
+   padding-bottom: 48px;
+ }
+ main section > h2 {
+   font-size: 40px;
+   margin: 16px 0;
+}
+main > section {
+   padding: 0 16px;
+}
+main .section-featured-works ul {
+   display: grid;
+   grid-template-columns: repeat(4,80%);
+   column-gap: 8px;
+   overflow-x: auto;
+}
+
+ footer {
+   background-color:var(--clr-4);
+   
+  
+ }
+
+/*-----LOGO-----*/
+.logo-main img {
+  width: 30px;
+  height: 20px;
+}
+.logo-main {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.logo-main strong {
+   font-size:32px;
+   font-weight: bold;
+}
+
+.logo-main .text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: var(--clr-4);
+}
+
+
+/*-----NAVS-----*/
+.nav-main {
+   padding: 12px;
+}
+.nav-main ul {
+   display: flex;
+   gap:2px
+   
+}
+.nav-main ul li {
+   /*
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 0;*/
+   flex: 1 1 0;
+  
+}
+
+
+.nav-main a{
+   background-color: rgba(101, 59, 209, 0.212);
+   display: block ;
+   text-align: center;
+   padding: 8px;
+
+}
+.nav-main a.active{
+   background-color:#debaced7;
+}
+.nav-social {
+ color: black;
+}
+.nav-social {
+   display: flex;
+   flex-direction: column;
+   padding: 12px 0;
+   align-items: center;
+   
+}
+.nav-social li {
+   margin-top: 16px;
+  
+}
+.nav-social a:hover {
+   background-color:var(--clr-2);
+   color: white;
+
+}
+
+/* Carousel*/
+.carousel {
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   overflow: hidden;
+}
+
+.carousel .slider {
+   width: 300%;
+   height: 100%;
+   display: flex;
+   transition: all 1s;
+}
+.carousel .slide {
+   width: 33.3333%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2rem;
+   color: #83789f;
+   
+}
+.carousel .slide h2 {
+   background-color: #0c002d;
+   
+}
+.carousel .slide:first-child {
+   background-image:url(../images/06.jpg);
+   background-position: center;
+   background-size: center;
+}
+.carousel .slide:nth-child(2) {
+   background-image:url(../images/05.jpg);
+   background-position: center;
+   background-size: center;
+}
+.carousel .slide:nth-child(3) {
+   background-image:url(../images/pexels-efe-ersoy-14822510.jpg);
+   background-position: center;
+   background-size: center;
+}
+
+.carousel nav {
+ 
+   position: absolute;
+   left: 50%;
+   bottom:50px;
+   transform: translateX(-50%);
+}
+
+.carousel > nav button:hover {
+   background-color:var(--clr-primary);
+   color: wheat;
+   
+}
+.carousel > nav button.active {
+   background-color:var(--clr-primary);
+   color: white;
+}
+.carousel > nav button {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: none;
+   margin-left: 16px;
+ 
+}
+
+/*-----CARDS------*/
+
+.card {
+  border:2px solid #0c002d;
+   border-radius: 16px;
+   position: relative;
+   overflow: hidden;
+}
+.card img {
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+   object-position: center;
+}
+.card h2, .card p {
+   padding: 16px;
+}
+.card h2 {
+   font-size: 2rem;
+}
+.card .full-link-cover {
+   background-color: rgba(105, 24, 235, 0.2);
+   display:block;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+}
+.card .full-link-cover:hover {
+   opacity: 1;
+   transition: opacity 0.7s;
+}
+.card figure {
+   position: relative;
+}
+figcaption{
+   color: white;
+   background-color: rgba(0, 255, 255, 0.508);
+   font-size: 12px;
+   /*yazıların arasına boşluk koymak için*/
+   letter-spacing: 4px;
+   padding: 5px;
+   position: absolute;
+   bottom: 8px;
+   right: 8px;
+}
+.blog h2, .blog p {
+   padding: 8px;
+}
+.section-latest-blog-posts li {
+margin: 16px 0;
+padding: 16px 0;
+   
+}
+
+/*----FORMS----*/
+
+#frm-contact {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   margin: 24px 0;
+}
+#frm-contact button {
+   align-self: flex-end;
+   width: 200px;
+   height: 40px;
+   border: none;
+   background-color: #0c002d;
+   color: #DEBACE;
+}
+#frm-contact input , #frm-contact textarea{
+   padding:12px;
+   border: 1px solid #DEBACE;
+   
+}
+#frm-contact button:hover {
+   background-color: #0c002dbe;
+   color: wheat;
+   transition: all 0.3s;
+}
+
+
+@media screen and (min-width:700px) {
+   header {
+     display: flex;
+     justify-content: space-between;
+    
+
+   }
+   .section-all-works ul{
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      gap: 8px;
+   }
+   main .section-featured-works ul {
+      display: grid;
+      grid-template-columns: repeat(2 , 1fr);
+      gap: 8px;
+   }
+   .section-contact {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 200px 410px;
+      grid-template-areas: 
+      "l l r r r r"
+      "l l r2 r2 r2 r2"
+      ;
+     
+   }
+   .section-contact h2 {
+      grid-area:l ;
+      align-self: center;
+   }
+   .section-contact > ul  {
+      grid-area: r;
+      align-self: center;
+   }
+   .section-contact > form {
+      grid-area: r2;
+   }
+   
+}
+@media screen and (min-width:1100px){
+   .section-all-works ul{
+      grid-template-columns: repeat(4 , 1fr);
+      gap: 24px;
+   }
+  main .section-featured-works ul {
+      grid-template-columns: repeat(4 , 1fr);
+      gap: 8px;
+   }
+}

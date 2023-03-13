@@ -1,0 +1,487 @@
+* {
+   box-sizing: border-box;
+}
+
+.nav-menu {
+   display: flex;
+   gap: 20px;
+
+}
+
+
+body {
+   font-family: 'Lato', sans-serif;
+   opacity: 0.800;
+   line-height: 1.8;
+}
+
+header {
+   border: 2px solid rgba(128, 128, 128, 0);
+   background-color: gray;
+   width: 100wv;
+   background-image: url(../images/parallax1.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 50vh;
+
+
+}
+
+a {
+   text-decoration: none;
+   color: rgb(157, 157, 157);
+
+
+}
+
+.nav-hamburger {
+   display: flex;
+   justify-content: space-between;
+   margin: 16px;
+
+}
+
+
+.my-logo-text {
+   color: white;
+   text-align: center;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: center;
+   height: 60px;
+   padding: 12px;
+   font-size: 32px;
+   width: 400px;
+   word-spacing: 8px;
+
+
+
+}
+
+.my-logo-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 150px 0;
+}
+
+
+
+.about-me {
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 96%;
+   max-width: 1000px;
+   margin: 10px auto;
+
+
+
+}
+
+.my-name-icon {
+
+   padding: 10px;
+
+}
+
+b {
+
+   font-weight: bolder;
+
+}
+
+p.my-name-text2 {
+   margin: 10px 100px;
+}
+
+.limited-width {
+
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+main section.banner {
+   padding: 24px;
+
+
+}
+
+.col-left {
+
+   padding: 20px
+}
+
+.col-right {
+
+   margin: 30px 50px;
+
+}
+.good-at {
+   width: 60%;
+   margin: 10px 20%;
+   font-weight: 300;
+   height: 500px;
+}
+
+.border {
+
+   height: 40px;
+   width: 100%;
+   background-color: #a4a4a482;
+
+}
+
+.stick {
+
+   background-color: #474747;
+   width: 90%;
+   text-align: center;
+   height: 40px;
+   color: white;
+   text-align: center;
+
+}
+
+.stick.web {
+   width: 85%;
+}
+
+.stick.shop {
+   width: 75%;
+}
+
+.navbar {
+   position: fixed;
+   width: 100%;
+   background-color: #47474716;
+}
+
+
+
+
+.dark-grey {
+
+   display: flex;
+   justify-content: space-around;
+   background-color: #474747;
+   color: #fff;
+   text-align: center;
+   height: 120px;
+   align-items: center;
+   font-size: x-large;
+}
+
+
+.section-grey {
+   margin-top: 16px;
+   margin-bottom: 16px;
+
+}
+
+.portfolio-img {
+
+   background-image: url(../images/images.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   opacity: 0.75;
+   width: 100wv;
+   background-attachment: scroll;
+   min-height: 400px;
+   position: relative;
+
+
+}
+
+.portfolio-text h1 {
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding: 12px;
+   font-size: 32px;
+
+
+
+}
+
+.portfolio-text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 200px;
+
+
+}
+
+.my-work {
+   text-align: center;
+   margin: 30px auto;
+   padding: 5px auto;
+}
+
+
+
+
+
+
+.container {
+
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   width: 60%;
+   margin: 0 20%;
+
+
+}
+
+.container img {
+   width: 25%;
+   padding: 8px;
+
+}
+
+.container img:hover {
+   opacity: 0.4;
+}
+
+button {
+   margin: 64px 0;
+   border: none;
+   display: inline-block;
+   padding: 16px 16px;
+   text-decoration: none;
+   text-align: center;
+   cursor: pointer;
+   font-size: large;
+   color: #000;
+   background-color: #f1f1f1;
+}
+
+button:hover {
+   background-color: #4747478c;
+}
+
+.contact-img {
+
+   height: 350px;
+   background-image: url(../images/contact.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   opacity: 0.75;
+   width: 100wv;
+   background-attachment: scroll;
+   min-height: 200px;
+   position: relative;
+   margin-bottom: 50px;
+
+
+}
+
+.contact-text h1 {
+   color: white;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   font-size: xx-large;
+
+
+
+}
+
+.contact-text {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 120px;
+
+
+}
+
+
+
+
+.map img {
+   width: 50%;
+   max-width: 800px;
+   height: auto;
+   border-radius: 4px;
+   margin-left: 200px;
+
+
+
+}
+
+.map-container {
+   height: 400px;
+   margin: 40px 5%;
+   display: flex;
+   justify-content: space-evenly;
+
+
+}
+
+.communication {
+
+   width: 100%;
+   font-size: 16px;
+}
+
+
+input {
+
+   font: inherit;
+
+
+}
+
+input.message {
+   width: 360px;
+
+
+}
+
+.send-message-button {
+   margin-top: 16px;
+   margin-bottom: 16px;
+   background-color: black;
+   color: #f1f1f1;
+}
+
+
+
+/*footer css*/
+.row {
+
+   background-color: #474747;
+   height: 35vh;
+   text-align: center;
+   padding: 10px 0;
+
+
+}
+
+.row:hover {
+   background-color: #000;
+}
+
+.button-to-the-top {
+   font-weight: 100;
+   margin-bottom: 10px;
+
+}
+
+.fa-brands {
+   color: white;
+}
+
+.btn-hamburger {
+   display: none;
+   cursor: pointer;
+
+
+}
+
+.bar {
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   background-color: white;
+}
+
+@media screen and (min-width:600px) {
+   .container.box {
+      width: 100%;
+   }
+
+   .limited-width {
+      display: flex;
+
+   }
+}
+
+@media (max-width: 600px) {
+   .container img {
+      width: 130%;
+
+
+   }
+
+   .dark-grey {
+      display: flex;
+      flex-direction: column;
+      height: 500px;
+
+   }
+
+   .map-container {
+      display: block;
+      height: 600px;
+   }
+
+   input {
+      display: block;
+
+   }
+
+   input.name,
+   input.email {
+      width: 360px;
+   }
+
+   .map img {
+      width: 100%;
+      margin: auto;
+   }
+
+   .container img {
+      display: flex;
+      flex-direction: row;
+
+   }
+
+   .col-right {
+      display: none;
+   }
+
+   .my-foto {
+      width: 100%;
+   }
+
+
+
+
+
+   /*
+.btn-hamburger {
+   display: block;
+   border:2px solid red
+}
+.search {
+   display: none;
+}
+div a.nav-link {
+   display: none;
+}
+
+
+.nav-link {
+   position: fixed;
+   left: -100%;
+   top: 70px;
+   gap: 0;
+   flex-direction: column;
+   background-color: #020202;
+   width: 100%;
+   text-align: center;
+   transition: 0.3s;
+}
+*/
+
+
+}

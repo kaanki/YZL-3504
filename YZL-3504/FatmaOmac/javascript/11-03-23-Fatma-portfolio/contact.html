@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio" />
+    <title>İletişim</title>
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <script src="./styles/main.js" defer></script>
+
+    <!-- fontawesome.com-->
+    <script
+      src="https://kit.fontawesome.com/84d2c71d4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--favicon-->
+    <link rel="icon" href="./images/moon-solid.svg" />
+
+    <!--fonts.google - IBM Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="root">
+      <header>
+        <a href="index.html" class="logo-main">
+          <img src="./images/moon-solid.svg" alt="logo" srcset="" />
+          <span class="text">
+            <strong> Fatma Omaç</strong>
+            <span>Frontend Developer</span>
+          </span>
+        </a>
+
+        <nav class="nav-main">
+          <ul>
+            <li><a href="about.html">Hakkımda</a></li>
+            <li><a href="works.html">Çalışmalarım</a></li>
+            <li><a href="contact.html" class="active">İletişim</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section-contact limited-width-container">
+          <h2>Freelance İş Teklifleriniz İçin İletişime Geçin.</h2>
+
+          <ul class="contact-info">
+            <li><strong>Tel:</strong> 5454545454</li>
+            <li><strong>E-posta:</strong> fatmaomac6@gmail.com</li>
+            <li><strong>Adres:</strong>Kadıköy/İSTANBUL</li>
+          </ul>
+
+          <form action="contact.php" method="post" id="frm-contact">
+            <input type="text" placeholder="Adınız Soyadınız" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mesajınız"
+            ></textarea>
+
+            <button type="submit">Gönder</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <nav class="nav-social">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/fatma.omac/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i> İnstagram</a
+              >
+            </li>
+
+            <li>
+              <a href="https://github.com/fatmaomac" target="_blank"
+                ><i class="fa-brands fa-github"></i> Githup</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

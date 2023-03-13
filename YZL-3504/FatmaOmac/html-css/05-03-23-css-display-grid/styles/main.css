@@ -1,0 +1,30 @@
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   border:2px solid blueviolet;
+   display: grid;
+   grid-template-columns:repeat(12, 1fr);
+   column-gap: 24px;
+   grid-template-rows: 100px 100px 50px;
+}
+.box {
+   border: 2px solid seagreen;
+}
+.box:nth-child(2) {
+
+   grid-column-start: 3;
+   grid-column-end: 7;
+
+   grid-row-start: 2;
+   grid-row-end: -1;
+}
+header {
+   border: 2px solid hotpink;
+   background-color: palegoldenrod;
+   grid-column-start: 7;
+   grid-column-end: 13;
+   grid-row-start: 1;
+   grid-row-end: 2;
+}
