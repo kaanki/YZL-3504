@@ -1,0 +1,9 @@
+.box {
+    border: 2px solid blueviolet;
+    color: white;
+    height: 70px;
+    width: 500px;
+    background-color: #c006cd6a;
+    border-radius: 30px;
+    padding: 10px;
+}

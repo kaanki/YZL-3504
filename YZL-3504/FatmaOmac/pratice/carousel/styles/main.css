@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Amatic SC", cursive;
+  font-size: 32px;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+ .slide h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.slide h2 {
+  padding: 8px;
+  background-color: gray;
+}
+.slide p {
+  color: rgba(128, 128, 128, 0.534);
+}
+ .carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border: 30px solid blue;
+
+
+ 
+
+}
+.col1 {
+  border: 4px solid salmon;
+display: flex;
+justify-content: space-between;
+margin: 40px auto;
+}
+
+
+.carousel .slider {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  transition: all 0s;
+  border:4px solid rgb(42, 182, 49)
+
+
+}
+.carousel .slide {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  color: black;
+
+}
+.carousel .slide:first-child {
+  background-color:white;
+  padding: 10px 30px;
+
+}
+.carousel .slide:nth-child(2) {
+  background-color:white;
+  padding: 10px 30px;
+}
+
+.carousel .slide:nth-child(3) {
+  background-color:white;
+  padding: 10px 30px;
+}
+
+.carousel nav {
+  
+  display: flex;
+  width: 100%;
+  height: 80px;
+}
+.carousel nav button {
+  flex: 1 1 0;
+  border: none;
+  background-color: black;
+  color: white;
+  }
+
+.carousel > nav button:hover {
+  background-color: rgb(251, 3, 3);
+  color: wheat;
+  
+}
+.carousel > nav button.active {
+  background-color: rgb(245, 5, 5);
+  color: white;
+  
+}
