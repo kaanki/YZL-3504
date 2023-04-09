@@ -29,7 +29,7 @@ greet("Can","Kartal")
 // Returning value from a function (bir fonksiyondan değer döndürmek)
 //bir fonksiyon içerisinde return ile değer döndürmedğimsek js undefined değeri döndürür
 
-function test (){ // içini bos bırakı nca return yapıyor ve undefined olarak çıkıyor
+function test (){ // içini bos bırakınca return yapıyor ve undefined olarak çıkıyor
        return "deneme"
 }
 console.log (test ())
