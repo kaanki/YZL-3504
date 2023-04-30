@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size:2rem;
+}
+
+
+section{
+
+    background-color:beige;
+    margin:48px;
+    padding:48px;
+    border-radius: 16px;
+
+}
+
+
+section .container{
+    border:2px solid blue;
+}
+
+
+
+/* örnek -1  */
+
+section:nth-child(1) .container{
+    width:600px;
+    display:flex;
+    justify-content: space-evenly;
+    padding:24px 0;
+  
+}
+
+section:nth-child(1) .box{
+    border:2px solid red;
+    width:120px;
+    height:120px;
+    
+}
+
+/* örnek - 2   */
+
+section:nth-child(2) .container{
+   display:flex;
+   width:50%;
+   justify-content: space-evenly;
+}
+
+section:nth-child(2) .box{
+   border:2px solid red;
+   width:calc( ( 100% - 120px ) / 4  );
+   height:100px;
+   margin:24px 0;
+
+}
+
+
+
+
+/* örnek - 3   */
+
+section:nth-child(3) .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ section:nth-child(3) .box{
+    border:2px solid red;
+    width:calc( ( 100% - 120px ) / 4  );
+    height:100px;
+    margin:24px 24px 0 0;
+ 
+ }
+
+ section:nth-child(3) .box:nth-child(){
+
+ }
+
+ /* örnek - 4   */
+
+section:nth-child(4) .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ section:nth-child(4) .box{
+    border:2px solid red;
+    width:calc( ( 100% - 48px ) / 3  );
+    height:100px;
+    margin:24px 0;
+ 
+ }
+
+
+  /* örnek - 5   */
+
+section:nth-child(5) .container{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+ }
+
+
+ section:nth-child(5) .col-left{
+    border:10px solid green;
+ }
+
+ section:nth-child(5) .col-right{
+    border:10px solid purple;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ section:nth-child(5) .logo{
+     border:2px solid red;
+     width:120px;
+     height:120px;
+     border-radius: 50%;
+ }
+
+ section:nth-child(5) nav{
+     border:2px solid red;
+ }
+ 
+
+
+
+

@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+ol{
+    margin:40px;
+}
+
+ol>li{
+    list-style:decimal;
+}
+
+
+/* ebeveyninin ilk çocuğu olan li*/
+.my-list-1 li:first-child{
+    color:blue;
+}
+
+/* ebeveyninin son çocuğu olan li*/
+.my-list-1 li:last-child{
+    color:red;
+}
+
+.my-list-1 li:nth-child(3){
+    color:yellow;
+}
+
+
+/* çift sayılı çocuklar */
+.my-list-1 li:nth-child(2n){
+    color:yellow;
+}
+
+/* tek sayılı çocuklar */
+.my-list-1 li:nth-child(2n-1){
+    color:yellow;
+}
+
+
+.my-list-2 li:nth-child(odd){
+    color:blue;
+}
+
+.my-list-2 li:nth-child(even){
+    color:red;
+}
+
+
+/* :hover pseudo class */
+
+button:hover{
+    background-color:red;
+    color:white;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,30 @@
+div, header, main, footer{
+    border:2px solid blue;
+    /*
+        border-width:2px;
+        border-style:solid;
+        border-color:blue;
+
+    */
+}
+
+div{
+    border-color:red;
+}
+
+/* fb class'ına mensup herhangi bir html elemanı */
+.fb{
+    color:blue;
+}
+
+footer .fb{
+    color:yellow;
+}
+
+/* vip class'ına mensup herhangi bir html elemanı */
+.vip{}
+
+/* hem fb hem vip hem special class'lı html öğesi*/
+.fb.vip.special{}
+
+p.fb.vip.special{}

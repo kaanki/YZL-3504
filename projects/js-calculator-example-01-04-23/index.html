@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-calculator-example-01-04-23</title>
+
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Hesap Makinesi 101</h1>
+
+      <form id="frm-calculator" action="mail.php">
+        <label for="operations">Bir işlem seçiniz:</label>
+        <select name="operations" id="operations" >
+          <option value="add">Toplama</option>
+          <option value="subtract">Çıkarma</option>
+          <option value="multiply">Çarpma</option>
+          <option value="divide">Bölme</option>
+        </select>
+
+        <input type="number" id="numA" placeholder="a" />
+
+        <input type="number" id="numB" placeholder="b" />
+
+        <button type="submit">Hesapla</button>
+
+        <p class="message">Burada hesaplama sonucu yazacak</p>
+      </form>
+    </div>
+  </body>
+</html>

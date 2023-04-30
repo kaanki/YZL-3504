@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --clr-1:red;
+}
+
+img{
+
+    max-width:100%;
+}
+
+a{
+    color:inherit;
+}
+
+
+.limited-width-container{
+    max-width:1000px;
+    margin:0 auto;
+}
+
+h1.logo{
+    background-color:rgb(78, 78, 78)
+}
+
+/* page header styles */
+#root>header{
+
+    background-color:rgba(0,0,0, 0.8); 
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   color:white;
+   z-index:999;
+}
+
+#root>header .btn-search{
+display:none;
+background-color:var(--clr-1);
+color:white;
+}
+
+/* main styles */
+main > section > header{
+    height:400px;
+    
+    background-image: url("../img/parallax1.jpg");
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    background-attachment: fixed;
+}
+
+
+
+main > section > header::after{
+    content:"";
+    display:block;
+    background-color:rgba(188, 188, 188, 0.4);
+    width:100%;
+    height:100%;
+
+}
+
+main > section > header h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    font-size:32px;
+    transform:translate(-50%, -50%);
+    color:white;
+    text-align: center;
+}
+
+main > section > .container-content{
+    min-height:200px;
+    
+}
+
+/* --- Section Portfolio --- */
+
+main .section-portfolio header{
+    background-image: url("../img/portfolio.jpg");
+   
+}
+
+/* skills */
+.wrapper-skills{
+    border:4px solid blue;
+}
+
+.wrapper-skills .container-skill{
+    margin-bottom:24px;
+}
+
+.wrapper-skills .container-skill .label{
+    color:#444;
+}
+
+.wrapper-skills .box-percentage{
+    height:40px;
+    background-color: #ddd;
+}
+
+.wrapper-skills .box-percentage .percent{
+    width:90%;
+    height:100%;
+    background-color: #555;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
+
+
+
+/* --- Section Contact --- */
+
+
+main .section-contact header{
+    background-image: url("../img/contact.jpg");
+}
+
+
+/* --- Navigations --- */
+.nav-main{
+   text-align: right;
+}
+
+.nav-main a{
+    display:block;
+    text-align: left;
+    padding:8px;
+    background-color:rgba(255,255,255,0.2)
+}
+
+.nav-main a:hover{
+    background-color:rgba(255,255,255,0.1)
+}
+
+.nav-main ul{
+    height:0;
+    overflow:hidden;
+    transition:height 0.5s ease-in;
+}
+
+.nav-main.expanded ul{
+    height:180px;
+    overflow:hidden;
+}
+
+.nav-main .btn-toggle i.fa.fa-x{
+    display:none;
+}
+
+.nav-main.expanded i.fa.fa-x{
+    display:unset;
+}
+
+.nav-main.expanded i.fa.fa-bars{
+    display:none;
+}
+
+
+/* --- forms --- */
+form{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+form button{
+    background-color:black;
+    color:white;
+    padding:8px 0;
+    align-self:flex-end;
+}
+
+
+
+
+
+
+@media screen and (min-width:1000px ){
+
+    #root>header{
+        display:flex;
+    }
+
+    .nav-main{
+        flex-grow:1;
+        flex-shrink:1;
+        flex-basis:auto;
+    }
+
+    .nav-main ul{
+        display:flex;
+        height:auto;
+    }
+
+    .nav-main .btn-toggle{
+        display:none;
+    }
+
+    #root>header .btn-search{
+        display:unset;
+    }
+
+    .wrapper-contact-frm{
+        display:flex;
+       
+    }
+
+    .wrapper-contact-frm .col-1{
+        flex-basis:30%;
+    }
+
+    .wrapper-contact-frm .col-2{
+        flex-basis:70%;
+    }
+
+   /* --- forms --- */
+form{
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+   
+}
+
+form input[name="user-name"],
+form input[name="user-email"]
+{
+    flex-basis:calc( ( 100% - 16px ) / 2 );
+}
+
+form input[name="user-email"]{
+    order:-1;
+}
+
+
+form textarea[name="user-message"]{
+    flex-basis:100%;
+}
+}

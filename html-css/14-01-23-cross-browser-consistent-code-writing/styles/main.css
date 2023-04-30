@@ -1,0 +1,22 @@
+h1{
+    font-size:32px;
+    border:1px solid blue;
+    /* vendor prefixes 
+    -webkit-  (chrome, safari)
+    -ms- (microsoft)
+    -moz- ( firefox )
+    -o- (opera)
+    
+    */
+
+    -webkit-border-radius:24px;
+    border-radius: 24px;
+}
+
+
+
+@supports( border-radius:32px ){
+
+    /* */
+
+}

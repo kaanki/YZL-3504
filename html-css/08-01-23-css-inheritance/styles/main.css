@@ -1,0 +1,20 @@
+/*  DRY ( Do not repeat yourself ) */
+/* p elemanları ve h1 elemanları ve h2 elemanları */
+
+/*
+p, h1, h2{
+    color:red;
+}
+*/
+
+body{
+    color:red;
+    border:2px solid blue;
+}
+
+
+a{
+    color:inherit;
+}
+
+

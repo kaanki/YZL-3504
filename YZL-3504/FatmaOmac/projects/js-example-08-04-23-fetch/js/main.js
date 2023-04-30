@@ -24,3 +24,24 @@ function createCityElements (data){
         listEl.append (titleEl);
     });
 }
+
+/*
+const btnFormEl = document.getElementById("btndelete");
+const inputFetchDelEl = document.getElementById("cityId");
+
+
+btnFormEl1.addEventListener ("click", handledelete);
+
+function handledelete (){
+
+    const cityId = inputFetchDelEl.value ;
+   
+    fetch(`https://64318e0ad4518cfb0e641c45.mockapi.io/citys ${cityId}` , {
+        method:"DELETE",
+        headers: {"Content-Type":"application/json"}
+    })
+    .then ((response)=>{console.log(response)})
+    .catch ((err)=>{console.log (err)})
+}
+
+*/

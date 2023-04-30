@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js - fetch api</title>
+
+    <script src="js/main.js" defer></script>
+
+   
+</head>
+<body>
+  <div>
+      <header>
+          <h1>Logo</h1>
+      </header>
+      <main>
+            <button type="button" id="btn-fetch">
+                Şehirleri gör
+            </button>
+            <ul id="cities">
+
+            </ul>
+
+
+            <section>
+                <h2>Bir şehir sil</h2>
+                <form>
+                    <input type="number" id="cityId" placeholder="Şehir id'si yazın">
+
+                    <button id="btnDeleteCity" type="submit">Sil</button>
+                </form>
+                <p id="cityMessage"></p>
+            </section>
+
+            <section>
+                <h2>Bir ürün ekle ya da güncelle</h2>
+                <form id="frmAddProduct">
+                    <input type="text" id="inpProductName" placeholder="Ürün ismi yazınız" required/>
+
+                    <input type="text" id="inpProductCategory" placeholder="Ürün kategorisi yazınız" required/>
+
+                    <input type="number" id="inpProductPrice" placeholder="Ürün fiyatı yazınız" required/>
+
+                    <button type="submit">
+                        Ürün ekle ya da güncelle
+                    </button>
+                </form>
+            </section>
+      </main>
+      <footer>
+
+      </footer>
+  </div>
+</body>
+</html>

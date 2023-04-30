@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+
+section{
+    border:2px solid red;
+    padding:24px;
+}
+
+section::before{
+
+    content: "before";
+    color:pink;
+
+}
+
+section.favorite-friend::after{
+
+    content: "❤️";
+    color:blue;
+
+}
+
+

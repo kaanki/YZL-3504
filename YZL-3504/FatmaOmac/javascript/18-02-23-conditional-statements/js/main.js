@@ -92,3 +92,9 @@ let myCarCount = 0;
 if (myCarCount) {
     console.log ("you are rich")
 }
+
+/* ----ternary operator---- */
+
+const hasKey = true;
+
+const hasAccess = hasKey ? "girebilirsin" : "giremezsin";

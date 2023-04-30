@@ -1,0 +1,26 @@
+div p{
+    color:red;
+}
+
+p{
+    color:#0000ff;
+}
+
+html div p{
+    color:green;
+}
+
+
+body a{
+    font-weight: bold;
+    color:aqua;
+}
+
+html a{
+    font-weight:normal;
+    color:beige;
+}
+
+
+
+

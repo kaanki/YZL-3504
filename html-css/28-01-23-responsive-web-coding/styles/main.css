@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: green; /* 0 - 700px */
+}
+
+
+
+
+
+@media screen and ( min-width:700px ){   
+
+    body{
+        background-color:cadetblue;  /* 700px - sonsuz */
+    }
+
+  }
+
+
+@media screen and ( min-width:1200px ){
+    body{
+        background-color: orangered;
+    }
+}

@@ -1,0 +1,40 @@
+
+div{
+    border:10px solid red;
+}
+
+
+/*---  Header Styles ---*/
+
+header{
+    border:10px solid black;
+}
+
+
+/*---  Main Styles ---*/
+
+main{
+    border:10px solid blue;
+}
+
+main p{
+    color:pink;
+}
+
+main p a{
+    color:blueviolet;
+}
+
+/*---  Footer Styles ---*/
+footer{
+    border:10px solid green;
+}
+
+footer p{
+    color:purple;
+}
+
+footer p a{
+    color:yellow;
+}
+
